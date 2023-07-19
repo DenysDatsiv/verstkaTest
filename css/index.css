@@ -1,0 +1,49 @@
+@import url(first-section.css);
+@import url(second-section.css);
+@import url(third-section.css);
+@import url(four-section.css);
+@import url(fifth-section.css);
+@import url(header.css);
+
+textarea {
+	resize: none;
+}
+
+span {
+	color: #d00b01;
+}
+
+body {
+	margin: 0;
+}
+
+.block-header {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+@media (min-width: 640px) {
+	.main-part {
+		margin: 0 40px;
+	}
+
+	.block-header {
+		text-align: left;
+		justify-content: left;
+	}
+}
+
+@media (min-width: 992px) {
+	.main-part {
+		margin: 0 17%;
+	}
+}
+
+@media (max-width: 640px) {
+	.third-section,
+	.four-section,
+	.fifth-section {
+		margin: 0 20px;
+	}
+}

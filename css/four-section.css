@@ -1,0 +1,22 @@
+.img-prototype {
+	width: 95%;
+	height: 140px;
+	background-color: rgb(130, 130, 130);
+}
+
+@media (min-width:640px) {
+	.four-section-last-news-general {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);;
+	}
+
+	.lastest-news {
+		margin: 5px;
+	}
+}
+
+@media (min-width: 992px) {
+	.four-section-last-news-general {
+		grid-template-columns: repeat(4, 1fr);;
+	}
+}

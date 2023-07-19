@@ -1,0 +1,108 @@
+.separating-line {
+	margin-top: 50px;
+	border-width: 3px;
+}
+
+.black-square {
+	width: 70px;
+	height: 70px;
+	background-color: black;
+	margin-bottom: 2px;
+}
+
+.photoset {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.author {
+	color: red;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.flickr {
+	flex-direction: column;
+	justify-content: center;
+}
+
+.get-in-touch-inputs {
+	width: 100%;
+	margin: 1px 0;
+	border-color: transparent;
+	background-color: #d1d1d1;
+	max-height: 60px;
+}
+
+.get-in-touch-inputs::placeholder {
+	padding: 5px;
+}
+
+.name-input,
+.email-input {
+	height: 30px;
+}
+
+.last-tweet-info {
+	font-size: 14px;
+}
+
+.black-square {
+	margin: 5px;
+}
+
+.clear-btn {
+	color: #fff;
+	padding: 5px;
+	background-color: #313131;
+	border-color: transparent;
+}
+
+.send-btn {
+	color: #fff;
+	padding: 5px;
+	background-color: #d00b01;
+	border-color: transparent;
+}
+
+
+@media (min-width: 640px) {
+	.fifth-section {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.retreat {
+		margin-right: 25px;
+	}
+
+	.black-square {
+		width: 50px;
+		height: 50px;
+		background-color: black;
+		margin: 3px;
+	}
+
+	.last-tweet-info {
+		font-size: 11px;
+	}
+}
+
+@media (min-width: 1080px) {
+	.fifth-section {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.retreat {
+		margin-right: 15px;
+	}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 996px) {
+	.black-square {
+		width: 60px;
+		height: 60px;
+		background-color: black;
+		margin: 2px;
+	}
+}

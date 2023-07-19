@@ -1,0 +1,149 @@
+.news-header {
+	color: #d00b01;
+	margin-bottom: 4px;
+}
+
+.news-undertext {
+	color: #878787;
+	margin: 0;
+}
+
+.news-data {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #d1d1d1;
+	width: 115px;
+	height: 70px;
+	padding: 5px;
+	border: 1px solid #d1d1d1;
+	border-radius: 50%;
+	margin-left: 20px;
+}
+
+.news-data p {
+	margin: 0;
+}
+
+.news-year {
+	font-size: 25px;
+	color: #777676;
+}
+
+.news-month {
+	font-size: 13px;
+	color: #777676;
+}
+
+.first-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.news-info {
+	margin-left: 20px;
+}
+
+@media (min-width: 640px) {
+	.news-general-in {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.first-one {
+		margin-right: 10px;
+	}
+
+	.third-section {
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 1020px) {
+	.block-header {
+		text-align: center;
+	}
+}
+
+@media (min-width: 1358px) {
+	.third-section {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.first-one {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.news-year {
+		font-size: 15px;
+		margin: 0;
+	}
+
+	.news-month {
+		font-size: 10px;
+	}
+
+	.news-header {
+		margin-top: 5px;
+		font-size: 13px;
+	}
+
+	.news-data {
+		margin-top: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: #d1d1d1;
+		width: 80px;
+		height: 45px;
+		padding: 5px;
+		border: 1px solid #d1d1d1;
+		border-radius: 50%;
+		margin-left: 32px;
+	}
+
+	.news-undertext {
+		font-size: 11px;
+	}
+
+	.latest-news-text {
+		font-size: 11px;
+	}
+
+	.news-data {
+		margin-left: 0;
+	}
+
+	.first-one {
+		margin-right: 10px;
+	}
+
+	.third-block-information-list {
+		font-size: 11px;
+	}
+
+	.third-block-information {
+		font-size: 11px;
+	}
+
+	.general-info-text {
+		width: 480px;
+	}
+
+	.new-general-information {
+		margin: 0 5px 0 20px;
+	}
+}
+
+@media (max-width: 640px) {
+	.third-section {
+		margin: 0 20px;
+	}
+}

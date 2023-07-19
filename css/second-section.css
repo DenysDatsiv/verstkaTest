@@ -1,0 +1,32 @@
+.second-section {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.banner-subtext {
+	color: rgb(102, 103, 104);
+	font-size: 12px;
+}
+
+.banner-header {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+@media (min-width: 640px) {
+	.banner-header {
+		font-size: 22px;
+	}
+
+	.banner-subtext {
+		margin-bottom: 5px;
+		font-size: 16px;
+		margin-top: 30px;
+		color: rgb(102, 103, 104);
+	}
+
+    .second-section {
+		margin-top: 50px;
+	}
+}
